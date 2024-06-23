@@ -1,0 +1,33 @@
+.weather-div {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  line-height: 2em;
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: black 3px 0 10px;
+  letter-spacing: 0.5px;
+}
+
+.piece {
+  color: #ffffff;
+  width: 8vw;
+  background-color: rgba(255, 255, 255, 0.23);
+  padding: 0.7rem 1.5rem;
+  margin: 1.2em 0.75em;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 400;
+}
+
+.piece-lg {
+  height: 12vh;
+}
+
+.bold {
+  font-weight: 900;
+}

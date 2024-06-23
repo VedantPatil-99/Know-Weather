@@ -1,0 +1,89 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box form input {
+  z-index: 1;
+  width: 20vw;
+  font-size: 1rem;
+  color: #d6d6d6;
+  margin: 1rem;
+  padding: 1em;
+  border: none;
+  border-radius: 28px;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.box form input::placeholder {
+  color: #d6d6d6;
+}
+
+.box form input:hover {
+  border: 1px solid goldenrod;
+}
+
+.box form Button {
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.alert-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2rem;
+}
+
+.alert-1 {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin: 15px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.6s; /* Fade effect */
+}
+
+.alert-2 {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin: 15px;
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 1000;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.6s; /* Fade effect */
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}

@@ -1,0 +1,53 @@
+div .Temperature {
+  font-size: 6rem;
+}
+
+.temp-div {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.temp-div .nature {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.6em;
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 1.5px;
+  padding: 0.2em;
+}
+
+.temp-div .Location {
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+  margin-bottom: -14px;
+  padding: 0.2em;
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  color: goldenrod;
+}
+
+.underline-incr {
+  animation-name: scale;
+  animation-duration: 3s;
+}
+
+@keyframes scale {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(40px);
+  }
+}
+
+.icons {
+  height: auto;
+  width: auto;
+  margin: 0 0 0 1.5rem;
+  position: relative;
+  top: 2px;
+}
