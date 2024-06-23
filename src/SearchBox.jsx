@@ -6,7 +6,6 @@ import { useState } from "react";
 
 export default function SearchBox({ updateInfo }) {
   const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-
   let [Location, setLocation] = useState("");
   let [error, setError] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
