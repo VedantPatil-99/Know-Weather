@@ -41,7 +41,7 @@ export default function SearchBox({ updateInfo }) {
         `${API_URl}?q=${Location}&units=metric&appid=${API_KEY}`
       );
       let jsonResponse = await response.json();
-      console.log(jsonResponse);
+      // console.log(jsonResponse);
       let result = {
         location: jsonResponse.name,
         temp: jsonResponse.main.temp,
