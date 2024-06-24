@@ -48,7 +48,7 @@ To run 'Know Weather' locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/VedantPatil-99/know-weather.git
+   git clone[ https://github.com/VedantPatil-99/know-weather.git](https://github.com/VedantPatil-99/Konw-Weather.git)
    cd weather-wizard
    ```
 
