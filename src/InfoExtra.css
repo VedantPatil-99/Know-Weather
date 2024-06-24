@@ -28,6 +28,11 @@
   height: 12vh;
 }
 
+.piece:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: scale(0.95);
+}
+
 .bold {
   font-weight: 900;
 }

@@ -4,7 +4,7 @@ import Icons from "./Icons";
 export default function Temp({ info }) {
   return (
     <div className="temp-div">
-      <h2 className="Location underline-incr">{info.location}</h2>
+      <h2 className="Location">|&nbsp;&nbsp;{info.location}</h2>
       <div className="Temperature">{info.temp.toFixed()}&deg;C</div>
       <div className="nature">
         {info.weather}

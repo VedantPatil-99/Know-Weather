@@ -27,20 +27,51 @@ div .Temperature {
   padding: 0.2em;
   text-decoration: underline;
   text-underline-offset: 9px;
-  color: goldenrod;
+  background: hsla(187, 82%, 65%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(187, 82%, 65%, 1) 0%,
+    hsla(65, 77%, 63%, 1) 50%,
+    hsla(327, 67%, 74%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(187, 82%, 65%, 1) 0%,
+    hsla(65, 77%, 63%, 1) 50%,
+    hsla(327, 67%, 74%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(187, 82%, 65%, 1) 0%,
+    hsla(65, 77%, 63%, 1) 50%,
+    hsla(327, 67%, 74%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5EDEEF", endColorstr="#DCE956", GradientType=1 );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
-.underline-incr {
-  animation-name: scale;
-  animation-duration: 3s;
+.temp-div .Location {
+  animation: scale 15s infinite;
 }
 
 @keyframes scale {
-  from {
-    transform: scaleX(0);
+  0% {
+    transform: scale(1);
   }
-  to {
-    transform: scaleX(40px);
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }
 
@@ -50,4 +81,19 @@ div .Temperature {
   margin: 0 0 0 1.5rem;
   position: relative;
   top: 2px;
+  animation: icon-animation 5s infinite;
+}
+
+@keyframes icon-animation {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(25px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
 }
