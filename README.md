@@ -1,7 +1,6 @@
 # Know Weather
 
-Know Weather is a dynamic web application that provides real-time weather information for any entered location. Built using React and Vite, and styled with HTML and CSS, this project utilizes the OpenWeatherMap API to fetch and display weather data. Deployed on Vercel, Weather Wizard aims to deliver a seamless and informative weather-checking experience.
-
+Know Weather is a dynamic web application that provides real-time weather information for any entered location. Built using React and Vite, and styled with HTML and CSS, this project utilizes the OpenWeatherMap API to fetch and display weather data. Deployed on Vercel.
 ## Table of Contents
 
 1. [Project Description](#project-description)
