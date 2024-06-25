@@ -9,19 +9,19 @@
   line-height: 2em;
   font-size: 1.2rem;
   text-align: center;
-  text-shadow: black 3px 0 10px;
+  text-shadow: black 2px 0 7px;
   letter-spacing: 0.5px;
 }
 
 .piece {
   color: #ffffff;
   width: 8vw;
-  background-color: rgba(255, 255, 255, 0.23);
+  background-color: rgba(255, 255, 255, 0.21);
   padding: 0.7rem 1.5rem;
   margin: 1.2em 0.75em;
   border: none;
   border-radius: 1rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .piece-lg {
@@ -35,4 +35,31 @@
 
 .bold {
   font-weight: 900;
+}
+
+@media (max-width: 767px) {
+  .weather-div {
+    gap: 0rem 0.32rem;
+    justify-content: flex-start;
+    height: 95%;
+    font-size: 0.92em;
+    letter-spacing: 0.5px;
+  }
+
+  .piece {
+    width: 8.7em;
+    height: 10.5vh;
+    padding: 0.8rem 0rem;
+    margin: 0;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 400;
+    line-height: 2.8em;
+  }
+
+  .piece-lg {
+    width: 7.65em;
+    padding: 0.7rem 0.5rem;
+    line-height: 2em;
+  }
 }

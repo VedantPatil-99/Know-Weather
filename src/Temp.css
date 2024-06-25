@@ -23,7 +23,7 @@ div .Temperature {
 .temp-div .Location {
   letter-spacing: 1.5px;
   font-size: 2rem;
-  margin-bottom: -14px;
+  margin-bottom: -12px;
   padding: 0.2em;
   text-decoration: underline;
   text-underline-offset: 9px;
@@ -58,7 +58,7 @@ div .Temperature {
 }
 
 .temp-div .Location {
-  animation: scale 15s infinite;
+  animation: scale 10s infinite;
 }
 
 @keyframes scale {

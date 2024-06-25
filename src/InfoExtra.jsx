@@ -13,7 +13,7 @@ export default function InfoExtra({ data }) {
         <p>Humidity</p>
       </div>
       <div className="piece">
-        <p className="description bold">{data.windSpeed} MPH</p>
+        <p className="description bold">{data.windSpeed} km/hr</p>
         <p>Wind Speed</p>
       </div>
       <div className=" piece piece-lg">

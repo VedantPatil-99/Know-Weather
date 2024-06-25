@@ -6,15 +6,14 @@
 }
 
 .box form input {
-  z-index: 1;
   width: 20vw;
   font-size: 1rem;
   color: #d6d6d6;
   margin: 1.5rem 1rem;
-  padding: 1em;
+  padding: 1rem 2rem;
   border: none;
   border-radius: 28px;
-  background: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 .box form input::placeholder {
@@ -23,6 +22,11 @@
 
 .box form input:hover {
   border: 1px solid goldenrod;
+}
+
+.box form input:focus {
+  background-color: rgba(0, 0, 0, 0.413);
+  outline: none;
 }
 
 .box form Button {
@@ -86,4 +90,16 @@
 
 .closebtn:hover {
   color: black;
+}
+
+@media (max-width: 600px) {
+  .box form input {
+    width: 28vh;
+    font-size: 1rem;
+    color: #d6d6d6;
+    margin: 0.5rem 1rem 1.8rem;
+    padding: 1em 1.5em 1em 2em;
+    border: none;
+    border-radius: 28px;
+  }
 }
