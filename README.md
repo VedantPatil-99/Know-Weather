@@ -77,7 +77,7 @@ To run 'Know Weather' locally, follow these steps:
 3. Check additional weather details such as humidity, wind speed, and temperature ranges.
 ### Example Screenshot
  **Project Look -**
- ![project-screenshot](https://github.com/VedantPatil-99/Know-Weather/assets/137187890/bf609e7a-e30b-4b97-a2c1-5aba22cb56d1)
+![Projedct-ScreenShot](https://github.com/VedantPatil-99/Know-Weather/assets/137187890/572dfca8-b44b-4b24-b603-bfa50a3afa2c)
 
 
 ### Live Demo
