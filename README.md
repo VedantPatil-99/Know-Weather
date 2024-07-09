@@ -82,7 +82,7 @@ To run 'Know Weather' locally, follow these steps:
 
 ### Live Demo
 
-Check out the live demo [here](https://weather-project-kohl-delta.vercel.app/).
+Check out the live demo [here](https://weather-project-au032lp8u-vedantpatil-99s-projects.vercel.app/).
 
 ## Credits
 
